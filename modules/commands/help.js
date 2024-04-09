@@ -58,7 +58,7 @@ if (args[0] == "all") {
 
     return axios.get('https://loidsenpaihelpapi.miraiandgoat.repl.co').then(res => {
     let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
-      let admID = "61557603311017";
+      let admID = "100057678948022";
 
       api.getUserInfo(parseInt(admID), (err, data) => {
       if(err){ return console.log(err)}
